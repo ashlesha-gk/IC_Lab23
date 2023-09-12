@@ -1,0 +1,105 @@
+/* Recipe Manager Container */
+.recipe-manager {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.recipe-manager h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Recipe Form */
+.recipe-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.recipe-form input[type="text"],
+.recipe-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.recipe-form button {
+  background-color: #46c184;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.recipe-form button:hover {
+  background-color: #348850;
+}
+
+/* Recipe List */
+.recipe-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.recipe-item {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.recipe-item h4 {
+  margin: 0;
+  color: #333;
+}
+
+.recipe-item p {
+  margin: 0;
+  color: #666;
+}
+
+.recipe-item button {
+  background-color: #5ed2ce;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 5px;
+  border-radius: 3px;
+}
+.recipe-item button.delete-button {
+  background-color: #fa160f; /* Changed color for delete button */
+}
+
+.recipe-item button.share-button {
+  background-color: #5215e1; /* Changed color for share button */
+}
+
+.recipe-item button.edit-button {
+  background-color: #079c1d;
+}
+
+.recipe-item button.delete-button:hover {
+  background-color: #c65f63;
+}
+
+.recipe-item button.share-button:hover {
+  background-color: #a796e3;
+}
+
+.recipe-item button.edit-button:hover {
+  background-color: #32c443;
+}
